@@ -1,0 +1,148 @@
+{
+  "schema_version": 1,
+  "total_runs": 12,
+  "failure_counts": {
+    "accuracy_grounded": 6,
+    "beginner_friendly": 6,
+    "teaches_by_example": 6,
+    "jargon_explained": 6,
+    "key_coverage": 6,
+    "coherent_flow": 6
+  },
+  "learned_rules": {
+    "accuracy_grounded": {
+      "rule": "State only facts supported by the trusted notes; mention limitations and never promise perfect accuracy.",
+      "count": 6
+    },
+    "beginner_friendly": {
+      "rule": "Use short sentences, familiar words, and explain each new idea before using it.",
+      "count": 6
+    },
+    "teaches_by_example": {
+      "rule": "Use one everyday scenario and walk through it in at least three numbered steps.",
+      "count": 6
+    },
+    "jargon_explained": {
+      "rule": "Define every technical term and abbreviation at first use, then repeat the definitions in a plain-English glossary.",
+      "count": 6
+    },
+    "key_coverage": {
+      "rule": "Cover the definition, importance, complete workflow, example, and limitations before the recap.",
+      "count": 6
+    },
+    "coherent_flow": {
+      "rule": "Teach in this order: simple definition, reason to care, preparation, step-by-step workflow, example, limitations, recap.",
+      "count": 6
+    }
+  },
+  "recent_failures": [
+    {
+      "checks": [
+        "accuracy_grounded",
+        "beginner_friendly",
+        "teaches_by_example",
+        "jargon_explained",
+        "key_coverage",
+        "coherent_flow"
+      ],
+      "reasons": [
+        "accuracy_grounded: Missing factual safeguard(s): explains embeddings as numbers, does not promise perfect accuracy. LLM judge passed, but a hard local check failed.",
+        "beginner_friendly: Readability guardrail failed: average sentence length 7.6 words; lesson length 53 words (need <=24 words per sentence and >=450 total words). LLM judge passed, but a hard local check failed.",
+        "teaches_by_example: Example needs a familiar real-world scenario and at least three numbered steps; found 0 step labels. LLM judge passed, but a hard local check failed.",
+        "jargon_explained: Missing or unclear definitions: chunk, embedding, vector database, context, retrieval, generation, hallucination, RAG / LLM abbreviation expansion. LLM judge passed, but a hard local check failed.",
+        "key_coverage: Missing headings: what is rag, why does rag matter, how does rag work, a simple example, what rag cannot do, key words in plain english, quick recap; missing concepts: retrieval-augmented generation, chunk, context, retrieval, generation, large language model. LLM judge passed, but a hard local check failed.",
+        "coherent_flow: Sections are missing or out of order; use definition → importance → process → example → limits → glossary → recap. LLM judge passed, but a hard local check failed."
+      ]
+    },
+    {
+      "checks": [
+        "accuracy_grounded",
+        "beginner_friendly",
+        "teaches_by_example",
+        "jargon_explained",
+        "key_coverage",
+        "coherent_flow"
+      ],
+      "reasons": [
+        "accuracy_grounded: Missing factual safeguard(s): explains embeddings as numbers, does not promise perfect accuracy. LLM judge passed, but a hard local check failed.",
+        "beginner_friendly: Readability guardrail failed: average sentence length 7.6 words; lesson length 53 words (need <=24 words per sentence and >=450 total words). LLM judge passed, but a hard local check failed.",
+        "teaches_by_example: Example needs a familiar real-world scenario and at least three numbered steps; found 0 step labels. LLM judge passed, but a hard local check failed.",
+        "jargon_explained: Missing or unclear definitions: chunk, embedding, vector database, context, retrieval, generation, hallucination, RAG / LLM abbreviation expansion. LLM judge passed, but a hard local check failed.",
+        "key_coverage: Missing headings: what is rag, why does rag matter, how does rag work, a simple example, what rag cannot do, key words in plain english, quick recap; missing concepts: retrieval-augmented generation, chunk, context, retrieval, generation, large language model. LLM judge passed, but a hard local check failed.",
+        "coherent_flow: Sections are missing or out of order; use definition → importance → process → example → limits → glossary → recap. LLM judge passed, but a hard local check failed."
+      ]
+    },
+    {
+      "checks": [
+        "accuracy_grounded",
+        "beginner_friendly",
+        "teaches_by_example",
+        "jargon_explained",
+        "key_coverage",
+        "coherent_flow"
+      ],
+      "reasons": [
+        "accuracy_grounded: Missing factual safeguard(s): explains embeddings as numbers, does not promise perfect accuracy. LLM judge passed, but a hard local check failed.",
+        "beginner_friendly: Readability guardrail failed: average sentence length 7.6 words; lesson length 53 words (need <=24 words per sentence and >=450 total words). LLM judge passed, but a hard local check failed.",
+        "teaches_by_example: Example needs a familiar real-world scenario and at least three numbered steps; found 0 step labels. LLM judge passed, but a hard local check failed.",
+        "jargon_explained: Missing or unclear definitions: chunk, embedding, vector database, context, retrieval, generation, hallucination, RAG / LLM abbreviation expansion. LLM judge passed, but a hard local check failed.",
+        "key_coverage: Missing headings: what is rag, why does rag matter, how does rag work, a simple example, what rag cannot do, key words in plain english, quick recap; missing concepts: retrieval-augmented generation, chunk, context, retrieval, generation, large language model. LLM judge passed, but a hard local check failed.",
+        "coherent_flow: Sections are missing or out of order; use definition → importance → process → example → limits → glossary → recap. LLM judge passed, but a hard local check failed."
+      ]
+    },
+    {
+      "checks": [
+        "accuracy_grounded",
+        "beginner_friendly",
+        "teaches_by_example",
+        "jargon_explained",
+        "key_coverage",
+        "coherent_flow"
+      ],
+      "reasons": [
+        "accuracy_grounded: Missing factual safeguard(s): explains embeddings as numbers, does not promise perfect accuracy. LLM judge passed, but a hard local check failed.",
+        "beginner_friendly: Readability guardrail failed: average sentence length 7.6 words; lesson length 53 words (need <=24 words per sentence and >=450 total words). LLM judge passed, but a hard local check failed.",
+        "teaches_by_example: Example needs a familiar real-world scenario and at least three numbered steps; found 0 step labels. LLM judge passed, but a hard local check failed.",
+        "jargon_explained: Missing or unclear definitions: chunk, embedding, vector database, context, retrieval, generation, hallucination, RAG / LLM abbreviation expansion. LLM judge passed, but a hard local check failed.",
+        "key_coverage: Missing headings: what is rag, why does rag matter, how does rag work, a simple example, what rag cannot do, key words in plain english, quick recap; missing concepts: retrieval-augmented generation, chunk, context, retrieval, generation, large language model. LLM judge passed, but a hard local check failed.",
+        "coherent_flow: Sections are missing or out of order; use definition → importance → process → example → limits → glossary → recap. LLM judge passed, but a hard local check failed."
+      ]
+    },
+    {
+      "checks": [
+        "accuracy_grounded",
+        "beginner_friendly",
+        "teaches_by_example",
+        "jargon_explained",
+        "key_coverage",
+        "coherent_flow"
+      ],
+      "reasons": [
+        "accuracy_grounded: Missing factual safeguard(s): explains embeddings as numbers, does not promise perfect accuracy. LLM judge passed, but a hard local check failed.",
+        "beginner_friendly: Readability guardrail failed: average sentence length 7.6 words; lesson length 53 words (need <=24 words per sentence and >=450 total words). LLM judge passed, but a hard local check failed.",
+        "teaches_by_example: Example needs a familiar real-world scenario and at least three numbered steps; found 0 step labels. LLM judge passed, but a hard local check failed.",
+        "jargon_explained: Missing or unclear definitions: chunk, embedding, vector database, context, retrieval, generation, hallucination, RAG / LLM abbreviation expansion. LLM judge passed, but a hard local check failed.",
+        "key_coverage: Missing headings: what is rag, why does rag matter, how does rag work, a simple example, what rag cannot do, key words in plain english, quick recap; missing concepts: retrieval-augmented generation, chunk, context, retrieval, generation, large language model. LLM judge passed, but a hard local check failed.",
+        "coherent_flow: Sections are missing or out of order; use definition → importance → process → example → limits → glossary → recap. LLM judge passed, but a hard local check failed."
+      ]
+    },
+    {
+      "checks": [
+        "accuracy_grounded",
+        "beginner_friendly",
+        "teaches_by_example",
+        "jargon_explained",
+        "key_coverage",
+        "coherent_flow"
+      ],
+      "reasons": [
+        "accuracy_grounded: Missing factual safeguard(s): explains embeddings as numbers, does not promise perfect accuracy. LLM judge passed, but a hard local check failed.",
+        "beginner_friendly: Readability guardrail failed: average sentence length 7.6 words; lesson length 53 words (need <=24 words per sentence and >=450 total words). LLM judge passed, but a hard local check failed.",
+        "teaches_by_example: Example needs a familiar real-world scenario and at least three numbered steps; found 0 step labels. LLM judge passed, but a hard local check failed.",
+        "jargon_explained: Missing or unclear definitions: chunk, embedding, vector database, context, retrieval, generation, hallucination, RAG / LLM abbreviation expansion. LLM judge passed, but a hard local check failed.",
+        "key_coverage: Missing headings: what is rag, why does rag matter, how does rag work, a simple example, what rag cannot do, key words in plain english, quick recap; missing concepts: retrieval-augmented generation, chunk, context, retrieval, generation, large language model. LLM judge passed, but a hard local check failed.",
+        "coherent_flow: Sections are missing or out of order; use definition → importance → process → example → limits → glossary → recap. LLM judge passed, but a hard local check failed."
+      ]
+    }
+  ]
+}
